@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toast-container">
+        <h1>Toast Message</h1>
+        <section>
+            <button id="showSubmit" onclick="submit()">Submit</button>
+            <button id="showError" onclick="error()">Error</button>
+            <button id="showWarning" onclick="warning()">Warning</button>
+            <button id="showInfo" onclick="info()">Info</button>
+        </section>
+    </div>
+    <div class="toastshow">
+        <div class="toast" id="toast-success">Submit</div>
+        <div class="toast" id="toast-error">Error</div>
+        <div class="toast" id="toast-warning">Warning</div>
+        <div class="toast" id="toast-info">Info</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
